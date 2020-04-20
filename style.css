@@ -1,0 +1,165 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Lato', sans-serif;
+background-color: #dcdcdc;
+}
+.phone {
+    margin-top: 30px;
+    height: 700px;
+    width: 380px;
+    background-color: #b6b4b4;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-app {
+    margin-top: 20px;
+    height: 640px;
+    width: 360px;
+    background-color: black;
+    border-radius: 30px;
+}
+.container-app .header {
+    height: 100px;
+    width: 100%;
+    background-color: #101727;
+    color: white;
+    border-radius: 30px 30px 0 0;
+}
+.container-app .header .header-title {
+    padding-top: 20px;
+    padding-left: 20px;
+} 
+.container-app .header .header-title p {
+    font-size: 10px;
+    margin-bottom: 2px;
+    font-weight: 900;
+}
+.container-app .header .header-title h2 {
+    font-size: 25px;
+    padding-top: 0;
+    margin-top: 0!important;
+    font-weight: 700;
+}
+.container-app .resume {
+    background-color: #171f32;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-right: 20px!important;
+}
+.container-app .header .resume p {
+    margin-top: 0;
+    font-size: 10px;
+    padding-left: 20px;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+.container-app .header .resume h2 {
+    margin-top: 0;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+.cta-button {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #171f32;
+}
+.cta-button button {
+    height: 50px;
+    width: 95%;
+    margin-top: 40px;
+    background: #ff611D;
+    box-shadow: inset 11px 11px 31px #b54515, 
+                inset -11px -11px 31px #ff7d25;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.list {
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #171f32;
+    height: 430px;
+    border-radius: 0 0 30px 30px;
+    overflow-y: scroll;
+    
+}
+.container-app .list::-webkit-scrollbar { width: 0 !important }
+.list .date {
+    padding-top: 1px;
+     padding-left: 20px;
+     margin-top: 0;
+     padding-top: 1px;
+     background-color: #171f32;
+     color: #FFF;
+     position: relative;
+}
+.list .date p {
+    margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.list .card {
+    background: #fff;
+    box-shadow:  91px 91px 10px #101624, 
+    -11px -11px 31px #1e28417a;
+    border-radius: 10px;
+    height: 60px;
+    border-left: 5px solid #25D366;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list .card p {
+    font-size: 10px;
+    padding-bottom: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+.list .card h2 {
+    font-size: 18px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.description {
+    text-align: left;
+}
+.status{
+    text-align: right;
+}
+#wait{
+    color: 	#a7adba!important;
+}
+#recused {
+    color: #E53935!important;
+}
+#wait-border{
+    border-left: 5px solid 	#a7adba!important;
+}
+#recused-border {
+    border-left: 5px solid #E53935!important;
+}
